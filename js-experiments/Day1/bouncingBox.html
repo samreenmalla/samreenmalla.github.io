@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Day2</title>
+</head>
+<body>
+  <div id = 'container' style = "border: 1px solid black"></div>
+
+  <!-- JS starts here -->
+  <script>
+    var container = document.getElementById('container');
+    var point = document.createElement('div');
+
+    container.appendChild(point);
+
+    container.style.height = '200px';
+    container.style.width = '100px';
+    container.style.position = 'relative';
+
+    point.style.position = 'absolute';
+    point.style.top = 0;
+    point.style.width = '20px';
+    point.style.backgroundColor = 'skyblue';
+    point.style.height = '20px';
+
+    var down = true; //direction of the box i.e the box is moving down in the beginning
+
+    var movement = setInterval(function (){
+      var position = parseInt(point.style.top);
+      if(down){
+        point.style.top = (position+1)+'px'; //increasing the distance between the box and the top of the container
+      }else{
+        point.style.top = (position-1)+'px';
+      }
+      //to bounce the ball back after hitting the top or bottom
+    if(position >= parseInt(container.style.height)){
+      down = false;
+    }
+    if(position <= 0){
+      down = true;
+    }
+  }, 10);
+  </script>
+</body>
+</html>

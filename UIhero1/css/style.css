@@ -1,0 +1,208 @@
+.slider-bg{
+    background: url("../images/background.jpg");
+    background-size: 100%;
+}
+/*--- landing page starts ---*/
+.landing-page{
+    background-color: #f2f2f2;
+}
+
+.text h3{
+    font-size: 2em;
+    font-family: 'Roboto', 'sans-serif';
+    color:#323A45;
+	font-weight: 600;
+	margin-bottom: 3%;
+}
+.text h6{
+    font-size: 1em;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+}
+.text h6 a{
+    text-decoration: none;
+    color: #FF4B5A;
+
+}
+.text h6 a:hover{
+	color: #2B985C;
+}
+.text p {
+    font-size: 0.8em;
+    font-family: 'Roboto', 'sans-serif';
+	color: #323A45;
+	font-weight: 400;
+	line-height: 1.9em;
+    padding: 1% 0 3%;
+}
+.text p a{
+	font-size: 1em;
+	color: #fff;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+	padding: 18px 40px;
+	background: #FF4B5A;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.text p a:hover{
+	color: #fff;
+	background: #29AF61;
+}
+.img h3{
+    font-size: 2em;
+    font-family: 'Roboto', 'sans-serif';
+    color:#323A45;
+	font-weight: 600;
+	margin-bottom: 3%;
+}
+.img h6{
+    font-size: 1em;
+    font-family: 'Roboto', 'sans-serif';
+    font-weight: 500;
+}
+.img h6 a{
+    text-decoration: none;
+    color: #29AF61;
+}
+.img h6 a:hover{
+    color: #FF4B5A;
+}
+.img p {
+    font-size: 0.8em;
+    font-family: 'Roboto', 'sans-serif';
+	color: #323A45;
+	font-weight: 400;
+	line-height: 1.9em;
+	padding: 1% 0 3%;
+}
+.img p a{
+	font-size: 1em;
+	color: #fff;
+    font-weight: 300;
+    font-family: 'Roboto', 'sans-serif';
+	padding: 18px 40px;
+	background: #29AF61;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.img p a:hover{
+	color: #fff;
+	background: #FF4B5A;
+}
+.quote{
+    background-color: #f2f2f2;
+}
+.quote-info-img{
+    border-radius: 50%;
+}
+.about-phone{
+    background-color: #f2f2f2;
+}
+.clients-img img{
+    width: 100%;
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    max-width: 100px;
+    max-height: 45px;
+}
+.clients-img{
+    margin-bottom: 2%;
+}
+/*----- pricing table -----*/
+.pricing{
+    padding-top: 8%;
+    background-color: #f1f1f1;
+}
+.price-table{
+    background-color: #f1f1f1;
+    text-align: center;
+}
+.pricing h3{
+    font-family: 'Arvo';
+    text-align: center;
+    color: #323A45;
+    font-size: 1.8em;
+}
+.pricing p{
+    font-family: 'Arvo';
+    text-align: center;
+    color: #999;
+    font-size: 0.8em;
+}
+.pricing-grid h3 a{
+	font-size: 0.96em;
+	color: #323A45;
+    font-weight: 300;
+}
+.pricing-grid ul li a{
+    padding: 0.4em 0em;
+}
+.pricing-grid ul li{
+    padding: 0.4em;
+}
+.price-type a{
+    font-size: 1.78em;
+    color: grey;
+    font-family: 'Arvo';
+}
+#price-table > div > p {
+	font-size: 1em;
+	color: #7B7B7C;
+	font-weight: 300;
+	padding-bottom:5%;
+}
+.button {
+    font-size: 1.1em;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    padding: 4% ;
+    background: #2B985C;
+    margin-top: 6%;
+    border-radius: 3px;
+}
+.button a{
+    font-size: 0.89em;
+    color: #ffffff;
+    font-family: 'Arvo';
+}
+.pricing-grid h3{
+    border-bottom: 1px solid #999;
+}
+
+/*----- our works starts here ----- */
+
+.our-work {
+	padding: 8% 0;
+	background:#F7F7F7;
+}
+.our-work h3{
+	font-size: 1.6em;
+	color: #323A45;
+	font-weight: 600;
+	text-align: center;
+	border-bottom: 1px solid #CECECE;
+	padding-bottom: 2%;
+	margin-bottom: 2%;
+}
+.image-slider img:hover{
+    background: rgba(227, 92, 107, 0.8);
+}
+/* ---------- */
+.footer{
+    background: #191F21;
+	padding:1% 0;
+}
+.footer-right{
+    float: right;
+}
+.footer-left{
+    float: left;
+}
+.footer-right p,
+.footer-left p {
+    color: #f1f1f1;
+}
